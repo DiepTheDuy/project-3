@@ -1,0 +1,301 @@
+@media (min-width: 414px ){
+    .container{
+        width:100% ;
+    }
+    #header-time{
+        padding: 0px;
+    }
+    #header-mail{
+        text-align: left;
+        padding: 0px;
+    }
+    #main-menu{
+        margin-left: 0px;
+    }
+    #body-header #main-menu ul li {
+        margin-right: 0px;
+        padding-top: 10px;
+    }
+    #search-buy{
+        text-align: right;
+    }
+    #sub-menu{
+        background-color: #000000;
+    }
+    .dropdown-menu#sub-menu {
+        padding:0px;
+    }
+    .dropdown-menu#sub-menu a{
+        color:white;
+    }
+    .carousel-caption{
+        position: absolute;
+        right: 51%;
+        left: -30%;
+        bottom: 30px;
+    }
+    .carousel-caption span {
+        font-size: 10px;
+    }
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    #poster-buy {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+    #endow {
+        margin: 35px 0px;
+    }
+    #product-header {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    #card-overplay-shose.card-img-overlay {
+        top: 150px;
+        padding-left: 35px;
+        left: 230px;
+    }
+    #card-overplay-shose.card-img-overlay h1{
+        display: none;
+    }
+    #more-poster-btn {
+        font-weight: 600;
+        padding: 2px 15px;
+    }
+    #more-poster-btn a {
+        font-size: 10px;
+    }
+    #card-overplay-watch.card-img-overlay {
+        top: 26px;
+        left: 216px;
+        padding-top: 60px;
+        padding-bottom: 0px;
+        padding-left: 37px;    
+    }
+    #card-overplay-watch.card-img-overlay h5{
+        display: none;
+    }
+    #more-poster-body #more-poster-btn{
+        margin-left: 12px;
+    }
+    #card-overplay-clothes.card-img-overlay {
+        top: 33px;
+        left: 220px;
+        padding-top: 55px;
+        padding-bottom: 5px;
+        padding-left: 33px;
+    }
+    #card-overplay-clothes.card-img-overlay h5{
+       display: none;
+    }
+    #wp-new-product-list{
+        justify-content: center;
+    }
+    .pagination {
+        display: none;
+    }
+    #footer-info {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    #new-product-list .card {
+        margin-left:5px ;
+    }
+   
+    #share #share-post-info {
+        width: 100%;
+    }
+}
+
+/* @media (min-width: 568px){
+    #share #share-post-info {
+        width: 116px;
+    }
+} */
+@media (min-width: 580px) {    
+    .container{
+        max-width: 100%;
+    }
+    #new-product-list .card {
+        margin-left:0px ;
+    }
+    #share #share-post img {
+        margin-left: 0px;
+    }
+    .pagination {
+        display: flex;
+    }
+    #body-header #main-menu ul li {        
+        padding-bottom: 10px;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 51%;
+        left: 6%;
+        bottom: 68px;
+        width: 420px;
+    }
+    .carousel-caption span {
+        font-size: 14px;
+    }
+    .carousel-caption h1{
+        font-size: 27px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+        display: block;
+    }
+    #poster-buy {
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+    #new-product-list .card {
+        margin-left: 15px; 
+    }
+    .card-body {
+        font-size: 11px;
+    }
+    #card-overplay-shose.card-img-overlay {
+        top: 190px;
+        padding-left: 25px;
+        left: 230px;
+    }
+    #card-overplay-watch.card-img-overlay {        
+        left: 207px;
+    }
+    #card-overplay-clothes.card-img-overlay {        
+        left: 210px;
+        padding-top: 55px;
+    }
+    #share #share-post .card-body {
+        font-size: 12px;
+    }
+    #share #share-post .card-body h6{
+        font-size: 13px;
+    }
+    /* #share #share-post-info {
+        width: 178px;
+    } */
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 980px;
+    }
+    #header-mail{
+        text-align: center;
+    }    
+    #body-header #main-menu ul li {        
+        padding-bottom: 0px;
+    }
+    .dropdown-menu#sub-menu {
+        top: 218%;
+        background-color:#ffffff ;
+    }
+    .dropdown-menu#sub-menu a {
+        color:#5c5b5b ;
+        font-family: 'Roboto Condensed', sans-serif ;
+    }
+    .carousel-caption {    
+        left: 11%;
+        bottom: 139px;
+    }
+    #card-overplay-shose.card-img-overlay {
+        top: 210px;
+        padding-left: 25px;
+        left: 336px;
+    }
+    #card-overplay-shose.card-img-overlay h1{
+        display: block;
+    }
+    #card-overplay-watch.card-img-overlay h5 {
+        display: block;
+    }
+    #card-overplay-watch.card-img-overlay {
+        left: 320px;
+    }
+    #card-overplay-clothes.card-img-overlay {
+        left: 326px;    
+    }
+    #card-overplay-clothes.card-img-overlay h5 {
+        display: block;
+    }
+    #share #share-post .card-body {
+        font-size: 14px;
+    }
+    /* #share #share-post-info {
+        width: 255px;
+    } */
+  
+  
+
+}  
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    .navbar-nav{
+        margin-left: 90px;
+    }
+    .dropdown-menu#sub-menu {
+        top: 218%;
+    }
+    .carousel-caption {
+        left: 12%;
+        bottom: 190px;
+        width: 500px;
+    }
+    .carousel-caption span {
+        font-size: 16px;
+    }
+    .carousel-caption h1 {
+        font-size: 48px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+    }
+    #poster-buy {
+        font-size: 16px;
+        padding: 4px 16px;
+    }
+    .card-body {
+        font-size: 16px;
+    }
+    #card-overplay-shose.card-img-overlay {
+        top: 269px;
+        padding-left: 25px;
+        left: 431px;
+    }
+    #card-overplay-watch.card-img-overlay {
+        left: 415px;
+        top :60px;
+    }
+    #card-overplay-clothes.card-img-overlay {
+        left: 420px;
+        top: 60px;
+    }
+    #share #share-post .card-body {
+        font-size: 14px;
+    }
+    /* #share #share-post-info {
+        width: 318px;
+    } */
+    #product-header {
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+    #share #share-post .card-body h6 {
+        font-size: 18px;
+    }
+    #footer-info {
+        font-size: 14px;
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+}
